@@ -2,17 +2,16 @@
 
 #menu {
     display: none;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 15%;
+    width: 70%;
     background-color: yellow;
     padding: 8px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     z-index: 1;
     font-family: 'AuX DotBitC Xtra SmallCaps', sans-serif;
-    
     
 }
 
@@ -29,14 +28,13 @@
 }
 
 .menu-image {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 47%;
     top: 85%;
-    transform: translateX(-50%);
     cursor: pointer;
     z-index: -2;
     animation: bounceInUp 4s;
     width: 100px;
 }
-   
+
