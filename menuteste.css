@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/aux-dotbitc');
+
+#menu {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-family: 'AuX DotBitC Xtra SmallCaps', sans-serif;
+    
+    
+}
+
+ 
+.menu-item {
+    cursor: pointer;
+    font-size: 20px;
+    color: yellow;
+    font-family: 'AuX DotBitC Xtra SmallCaps', sans-serif;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid black;
+}
+
+.menu-image {
+    position: fixed;
+    bottom: 0;
+    left: 47%;
+    top: 85%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: -2;
+    animation: bounceInUp 4s;
+    width: 100px;
+}
+   
